@@ -3,7 +3,11 @@
 ## Data
 The `rstudiocheatsheets.pdf` file contains all 17 sheets as published by RStudio as of October 19, 2021. Each individual sheet can be found in the `sheets/` directory in the event that you only want a select few. 
 
-Everything in this repository is under a [CC-BY-SA](https://creativecommons.org/licenses/by-sa/2.0/), the same terms as the original cheatsheets by [RStudio](https://www.rstudio.com/resources/cheatsheets/). No changes were made to the sheets themselves other than combining the `.pdf` files into one.
+All sheets here are under a [CC-BY-SA](https://creativecommons.org/licenses/by-sa/2.0/). 
+
+The original 17 sheets are by [RStudio](https://www.rstudio.com/resources/cheatsheets/) under a CC-BY-SA license. No changes were made to the sheets themselves other than combining the `.pdf` files into one.
+
+The SAS/R sheet was made by Brendan O'Dowd, also under a CC-BY-SA license.
 
 ### Creating Your Own Combined `.pdf`
 I would recommend printing the full 17 sheets; you never know when you might need one! However, if you only want a select few of them, follow these instructions.
