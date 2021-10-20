@@ -31,3 +31,6 @@ If you are only doing one printing, they may be able to print and bind it for yo
 
 ## Payment
 Payment is due after printing has finished. Cash is accepted until October 30, 2021. Otherwise, debit and credit cards work.
+
+## Questions
+Please post any questions, comments, or concerns as an issue in the issues tab. Thank you!
