@@ -1,28 +1,28 @@
 # Printing RStudio Cheatsheets at GVSU
 
 ## Data
-The `rstudiocheatsheets.pdf` file contains all 17 sheets as published by RStudio as of October 19, 2021. Each individual sheet can be found in the `sheets/` directory in the event that you only want a select few. 
+The `essential-sheets/` directory contains many helpful sheets I deem as "essential" to learning R and R basics. Sheets were pulled from [the RStudio GitHub Page](https://github.com/rstudio/cheatsheets). 
 
-All sheets here are under a [CC-BY-SA](https://creativecommons.org/licenses/by-sa/2.0/). 
+Each individual sheet can be found in the `all-sheets/` directory in the event that you want to select your own. 
 
-The original 17 sheets are by [RStudio](https://www.rstudio.com/resources/cheatsheets/) under a CC-BY-SA license. No changes were made to the sheets themselves other than combining the `.pdf` files into one.
+## Creating Your Own Sheet
 
-The SAS/R sheet was made by Brendan O'Dowd, also under a CC-BY-SA license.
+If you wish to make your own file, create a new folder and place all of the sheets you want in that folder. Then use the `pdf_merger.py` program to merge the files into one PDF. This can be done with 
 
-### Creating Your Own Combined `.pdf`
-I would recommend printing the full 17 sheets; you never know when you might need one! However, if you only want a select few of them, follow these instructions.
+```
+python3 pdf_merger.py my-sheets/
+```
 
-1. Download from this repo the cheatsheets you want.
-2. Go to www.combinepdf.com and upload your files.
-3. Organize the files into the order you want them in. **Note: If you are including the `{forcats}` sheet, I recommend making that go first for good pagination.**
-4. Click Combine and continue.
+assuming you have for working directory set to the root directory of this repository and that you have a folder named `my-sheets`. Do note that some of the files do not have the same margins as the rest and others may need some editing to work properly with the Python program.
+
+All sheets here are under a Creative Commons license, so be sure to follow those guidelines if you aim to edit the sheets. 
 
 ## Printing the Sheets
-Printing is super easy and (as of October 2021) only costs $5.50 for all 17. Follow these steps.
+Printing is super easy and can cost less than $1089. Follow these steps.
 
 1. Be prepared to send your combined `.pdf` file to copycenter@gvsu.edu. 
 2. Go to the [GVSU Copy Center](https://www.gvsu.edu/busfin/gvsu-laker-store-copy-center-45.htm), located in the basement of the Laker Store.
-3. Tell them that you have a pdf and would like the pages to be bound in a flipbook format. You want the following attributes:
+3. Tell them that you have a pdf and would like the pages to be bound in a flipbook format. You want the following attributes (most of which happen by default):
     * Printed on slightly thicker paper
     * Full color
     * Minimal border
